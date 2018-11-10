@@ -1,0 +1,57 @@
+/**
+ * "Ounces to Grams Conversion Table"
+ * 
+ * This program generates a table converting ounces to grams.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/11/17
+ */
+
+//Importing toolkits
+import java.text.*;
+
+public class OuncesGramsRodC {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    //Defining variables
+    int ounces;
+    double grams;
+    
+    //Initializing rounding to 2 decimal places
+    DecimalFormat twoDecimal = new DecimalFormat("#,##0.00");
+    
+    /**
+     * Introducing program to user
+     */
+    System.out.println("OUNCES TO GRAMS CONVERSION TABLE");
+    System.out.println("");
+    System.out.println("This program will generate a table to convert ounces to grams. This can be useful");
+    System.out.println("in a variety of situations, such as cooking food or shopping for light travel items.");
+    System.out.println("");
+    System.out.println("The table will show conversions up to 15 ounces. For refernece, 1 ounce = 28.35 grams,");
+    System.out.println("16 ounces = 1 pound, and 1 000 grams = 1 kilogram.");
+    System.out.println("");
+    System.out.println("");
+    
+    //Generating headers
+    System.out.println("Ounces" + "\t\tGrams");
+    
+    /**
+     * Returns values of tables to limit of 15
+     * 
+     * @param ounces a mass in ounces
+     * @param grams the mass in ounces converted to grams
+     * @return the table of ounces and grams
+     */
+    ounces = 0;
+    do {
+      ounces++;
+      grams = ounces * 28.35;
+      System.out.println(ounces + "\t\t" + twoDecimal.format (grams));
+    }
+    while(ounces < 15);
+  }
+}

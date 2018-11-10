@@ -1,0 +1,39 @@
+/**
+ * This program takes a number between 1 and 99 and convert it into a word.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/14/17
+ */
+
+import javax.swing.* //Importing Swing toolkit
+public class NumberWordsRodC {
+  
+  /** @param args the command line arguments */
+  public static void main(String[] args) { 
+    //DECLARING VARIABLES
+    String userNum; //the number inputted by the user (left in string form for faster processing)
+    String outputText = "The number " + userNum + "can also be written as"; //The output of the number words
+    int restart = JOptionPane.YES_OPTION; //The integer which restarts the program
+    
+    //Introducing program to user
+    programIntro();
+    
+    //Initializing restart while loop
+    while (restart == JOptionPane.YES_OPTION) {
+      //INPUT NUMBER
+      userNum = JOptionPane.showInputDialog(null, "Please enter a number between 1 and 99:", "Enter Number",
+                                            JOptionPane.QUESTION_MESSAGE);
+      
+      //PROCESSING - Distributing number to correct method with if statement
+      if (userNum.charAt(1) == "") {
+      }
+    }
+  }
+  /** Introduces the program to the user */
+  public static void main() {
+    JOptionPane.showMessageDialog(null, "This is the Numbers to Words Calculator. It will take any whole number"
+                                  + "\nfrom 1 to 99, and convert into words. For example, 73 becomes SEVENTY-THREE."
+                                  + "\nThe program will keep asking for number until it is closed or an invalid"
+                                  + "\nnumber is entered.", "Numbers to Words Calculator", JOptionPane.INFORMATION_MESSAGE);
+  }
+}

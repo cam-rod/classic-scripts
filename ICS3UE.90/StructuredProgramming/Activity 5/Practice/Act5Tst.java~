@@ -1,0 +1,33 @@
+/* Programmer: Cameron Rodriguez
+ * Date: July 8, 2017
+ */
+
+/**
+ * This program will demonstrate variables.
+ */
+public class Act5Tst {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    //Declare variable names
+    int mynum1, mynum2, mynum3, mynum4;
+    String firstname;
+    double mydecimal;
+    
+    //Assign values to variables
+    mynum1 = 12;
+    mynum2 = 23;
+    mynum3 = -14;
+    mynum4 = 7;
+    firstname = "Cameron";
+    
+    //Displaying information to screen
+    System.out.println (mynum1);
+    System.out.println (mynum1);
+    
+      
+  }
+  
+}

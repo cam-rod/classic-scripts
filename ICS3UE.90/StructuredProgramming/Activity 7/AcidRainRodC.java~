@@ -1,0 +1,44 @@
+/**
+ * "Water Body Acidity Checker"
+ * 
+ * This program determines the chances of fish survival based on water acidity
+ */
+public class AcidRainRodC {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    //Initializing Input Stream Reader
+    BufferedReader acidInput = new BufferedReader (new InputStreamReader (System.in));
+    //Declaring variables
+    double pH;
+    
+    //Introductory text
+    System.out.println("'WATER BODY ACIDITY CHECKER'");
+    System.out.println("");
+    System.out.println("Acid rain is a real threat to the natural environment, especially");
+    System.out.println("bodies of water inhabited by sea life. While carbon dioxide from");
+    System.out.println("volcanoes are a factor, human activities such as burning fossil fuels");
+    System.out.println("have a major impact.");
+    System.out.println("");
+    System.out.println("This program will perdict the ability for fish to survive based on the");
+    System.out.println("acidity of the given body of water.");
+    System.out.println("");
+    
+    /**
+     * Get pH level from user
+     * 
+     * @param pH the pH level of the water body
+     * @return the pH level
+     */
+    System.out.println("Please enter a pH level");
+    pH = Double.parseDouble (acidInput.readLine());
+    
+    /*
+     * Calculate acidity of water body and return result to user
+     */
+    if pH < 6.5 {
+      
+  } 
+}

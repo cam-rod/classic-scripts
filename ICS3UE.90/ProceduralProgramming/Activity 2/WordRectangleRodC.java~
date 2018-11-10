@@ -1,0 +1,17 @@
+/**
+ * This program creates a rectangles of characters from a given word, shifting characters left on each line
+ * 
+ * @author Cameron Rodriguez
+ */
+
+import javax.swing.* //Importing Swing toolkit
+public class WordRectangleRodC {
+  
+ /** @param args the command line arguments */
+  public static void main(String[] args) { 
+    //Declaring variables
+    int restart; //Variable which restarts program if requested
+    int wordInput; //The user's inputted word
+    
+  }  
+}

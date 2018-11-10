@@ -1,0 +1,16 @@
+/**
+ * Generates an array of declining church attendance and displays attendance in a given year to user
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 
+ */
+
+import javax.swing.*
+public class DecliningRodC {
+  
+  /** @param args the command line arguments */
+  public static void main(String[] args) {
+    //Declaring variables
+    int year[] = new int[41]; //Array containing years from 1985 through 2025
+  } 
+}

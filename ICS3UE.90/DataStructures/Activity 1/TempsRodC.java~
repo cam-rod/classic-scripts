@@ -1,0 +1,30 @@
+/**
+ * This program stores inputted temperatures in an array and displays it to the user
+ */
+
+import javax.swing.*;
+public class TempsRodC {
+  
+  /** @param args the command line arguments */
+  public static void main(String[] args) { 
+    //DECLARING VARIABLES
+    String day = 1; //Day of the week
+    String temp[] = new String[7]; //Stores temperature for each day of week
+    
+    //Introduce program to user
+    introProgram();
+    
+    //INPUT - Populate array
+    temp = inputTemps(temp, day);
+  }
+  
+  /**
+   * Introduces the program to the user
+   */
+  public static void introProgram() {
+    JOptionPane.showMessageDialog(null, "This is the Temperature Compiler. Enter the high temperatures for each day,"
+                                  + "\nof a week, and this program will return all of the temperatures and dates in"
+                                  + "\n a format thats easy to copy and paste anywhere!", "Temperature Compiler",
+                                  JOptionPane.INFORMATION_MESSAGE);
+  }
+}

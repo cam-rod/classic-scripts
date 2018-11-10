@@ -1,0 +1,39 @@
+/**
+ * "Vowel Counter"
+ * 
+ * This program counts voxels in an inputted and displays it to the user
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 
+ */
+//Importing Swing input
+import javax.swing.*
+  
+public class VowelsRodC {
+  
+  /**
+    * @param args the command line arguments 
+    */
+  public static void main(String[] args) { 
+    //Declaring variables
+    int restart = JOptionPane.YES_OPTION; //The restart option
+    String wordSentence; //The user's word
+    char letter; //Letter to be checked for vowel
+    String inputMenu; //The dialog for the input of characters
+    
+    //Initializing main program loop
+    end: //Label to allow loop to be broken by user and to end program
+    while (restart == JOptionPane.YES_OPTION) {
+      //Introducing program to user
+      JOptionPane.showMessageDialog(null, "Welcome to the Vowel Counter. This program will take a word or sentence"
+                                    + "\nand determine how many vowels it contains.", "Vowel Counter",
+                                    JOptionPane.INFORMATION_MESSAGE);
+      
+      //Get word or sentence from user
+      Object[] inputMenuButtons = {
+      inputMenu = JOptionPane.showInputDialog(null, "Please enter the word or sentence you wish to have checked:",
+                                              "Input Words", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+                                              null, inputMenuButtons, inputMenuButtons[0]);
+    }
+  }
+}

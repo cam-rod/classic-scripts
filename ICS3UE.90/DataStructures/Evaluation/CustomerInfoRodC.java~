@@ -1,0 +1,21 @@
+/**
+ * This program forms a table based on inputted data for names and ages. It also determines the average age and returns
+ * the names of the oldest and youngest people.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/18/17
+ */
+public class CustomerInfoRodC {
+  
+  /** @param args teh command line arguments */
+  public static void main(String[] args) {
+    //Declaring variables
+    int totalPeople; //The total number of people to be entered into the program
+    String name[]; //The array of names
+    int age[]; //The array of ages
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

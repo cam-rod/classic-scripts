@@ -1,0 +1,20 @@
+/**
+ * "Triangle Identifier"
+ * 
+ * This program identifies whether a set of sides can form a triangle, and if so, the type of triangle.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/12/17
+ */
+//Importing toolkit
+import javax.swing.*;
+
+public class TriangleIdentifierRodC {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    
+  } 
+}

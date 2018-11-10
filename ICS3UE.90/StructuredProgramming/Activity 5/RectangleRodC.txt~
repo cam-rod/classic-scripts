@@ -1,0 +1,34 @@
+/*
+ * Programmer: Cameron Rodriguez
+ * Date: July 8, 2017
+ */
+/**
+ * Program Description: This program will display information about the side lengths, perimeter, and area or a rectangle
+ */
+public class RectangleRodC {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    //Declaring variables
+    int recLength, recWidth, recBorder, recArea;
+    
+    //Assigning values to variables
+    recLength = 16;
+    recWidth = 12;
+    
+    //Performing arithmetic
+    recBorder = 2 * (recLength + recWidth);
+    recArea = recLength * recWidth;
+    
+    //Displaying information to user
+    System.out.println ("Welcome to the " + "Rectangle Calculator" + "! This program will");
+    System.out.println ("calculate and display basic information about a rectangle.");
+    System.out.println ("");
+    System.out.println ("This rectangle has a length of " + recLength + " units, and a width");
+    System.out.println ("of " + recWidth + " units.");
+    System.out.println ("");
+    System.out.println ("It has a perimeter of " + recBorder + " units, and an area of " + recArea + " square units.");
+  }
+}

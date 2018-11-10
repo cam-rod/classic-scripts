@@ -1,0 +1,18 @@
+/**
+ * This program will generate a specified number of integers between 1 and 1000, with their range as well.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/18/17
+ */
+public class RandomNumbersRodC {
+  
+  /** @param args the commans line arguments */
+  public static void main(String[] args) { 
+    //Declaring variables
+    int userRequest; //The requested number of integers
+    int randNums[] = new int[];
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

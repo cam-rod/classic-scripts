@@ -1,0 +1,28 @@
+/**
+ * This program calculates the type and number of coins required to make change for a value inputted.
+ * 
+ * @author Cameron Rodriguez
+ * @version 1.0 07/10/17
+ */
+
+//Importing toolkits
+import java.io.*;
+import java.text.*;
+import javax.swing.*;
+
+public class MakeChangeRodC {
+  
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) { 
+    //Initializing Input Stream Reader
+    //Declaring the variables
+    double inputMoney;
+    int pennies, nickels, dimes, quarters, loonies, toonies;
+    
+    
+    
+    
+  }
+}
